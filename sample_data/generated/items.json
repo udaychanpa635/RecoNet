@@ -1,0 +1,194 @@
+[
+  {
+    "item_id": 0,
+    "name": "wireless earbuds",
+    "category": "electronics",
+    "description": "Compact wireless earbuds with noise isolation and long battery life, great for commuting and workouts."
+  },
+  {
+    "item_id": 1,
+    "name": "bluetooth speaker",
+    "category": "electronics",
+    "description": "Portable bluetooth speaker with deep bass, waterproof design, ideal for outdoor use."
+  },
+  {
+    "item_id": 2,
+    "name": "power bank",
+    "category": "electronics",
+    "description": "High-capacity power bank for fast-charging phones and tablets on the go."
+  },
+  {
+    "item_id": 3,
+    "name": "phone case",
+    "category": "electronics",
+    "description": "Shock-absorbent phone case with a slim profile and raised bezel for screen protection."
+  },
+  {
+    "item_id": 4,
+    "name": "usb-c cable",
+    "category": "electronics",
+    "description": "Durable braided USB-C cable rated for fast charging and reliable data transfer."
+  },
+  {
+    "item_id": 5,
+    "name": "laptop stand",
+    "category": "electronics",
+    "description": "Adjustable aluminum laptop stand that improves posture and airflow during long work sessions."
+  },
+  {
+    "item_id": 6,
+    "name": "webcam",
+    "category": "electronics",
+    "description": "1080p webcam with autofocus, well suited for video calls and streaming."
+  },
+  {
+    "item_id": 7,
+    "name": "mechanical keyboard",
+    "category": "electronics",
+    "description": "Tactile mechanical keyboard with hot-swappable switches, popular with programmers."
+  },
+  {
+    "item_id": 8,
+    "name": "ceramic mug",
+    "category": "home",
+    "description": "Hand-glazed ceramic mug that keeps drinks warm longer, dishwasher safe."
+  },
+  {
+    "item_id": 9,
+    "name": "throw blanket",
+    "category": "home",
+    "description": "Soft fleece throw blanket, machine washable, cozy for couch or bed."
+  },
+  {
+    "item_id": 10,
+    "name": "desk lamp",
+    "category": "home",
+    "description": "LED desk lamp with adjustable brightness and color temperature for reading or work."
+  },
+  {
+    "item_id": 11,
+    "name": "candle set",
+    "category": "home",
+    "description": "Set of scented soy candles with a long burn time, calming lavender and vanilla notes."
+  },
+  {
+    "item_id": 12,
+    "name": "wall clock",
+    "category": "home",
+    "description": "Minimalist silent wall clock, easy to read from across the room."
+  },
+  {
+    "item_id": 13,
+    "name": "storage bins",
+    "category": "home",
+    "description": "Stackable fabric storage bins for closet organization, collapsible when empty."
+  },
+  {
+    "item_id": 14,
+    "name": "kitchen scale",
+    "category": "home",
+    "description": "Precise digital kitchen scale for baking and portion control."
+  },
+  {
+    "item_id": 15,
+    "name": "cutting board",
+    "category": "home",
+    "description": "Bamboo cutting board, gentle on knife edges and naturally antimicrobial."
+  },
+  {
+    "item_id": 16,
+    "name": "mystery novel",
+    "category": "books",
+    "description": "A tightly plotted mystery novel full of twists, perfect for a weekend read."
+  },
+  {
+    "item_id": 17,
+    "name": "sci-fi anthology",
+    "category": "books",
+    "description": "A collection of short science fiction stories exploring AI, space travel, and first contact."
+  },
+  {
+    "item_id": 18,
+    "name": "cookbook",
+    "category": "books",
+    "description": "A cookbook of quick weeknight recipes using everyday ingredients."
+  },
+  {
+    "item_id": 19,
+    "name": "self-help guide",
+    "category": "books",
+    "description": "A practical guide to building better habits and staying focused."
+  },
+  {
+    "item_id": 20,
+    "name": "history book",
+    "category": "books",
+    "description": "An accessible narrative history covering a pivotal period with vivid detail."
+  },
+  {
+    "item_id": 21,
+    "name": "poetry collection",
+    "category": "books",
+    "description": "A quiet, reflective poetry collection about everyday life and memory."
+  },
+  {
+    "item_id": 22,
+    "name": "biography",
+    "category": "books",
+    "description": "An in-depth biography tracing a public figure's rise, setbacks, and legacy."
+  },
+  {
+    "item_id": 23,
+    "name": "travel guide",
+    "category": "books",
+    "description": "A travel guide packed with practical tips, maps, and local recommendations."
+  },
+  {
+    "item_id": 24,
+    "name": "yoga mat",
+    "category": "fitness",
+    "description": "Non-slip yoga mat with extra cushioning, suitable for studio or home practice."
+  },
+  {
+    "item_id": 25,
+    "name": "resistance bands",
+    "category": "fitness",
+    "description": "A set of resistance bands of varying strength for strength training anywhere."
+  },
+  {
+    "item_id": 26,
+    "name": "water bottle",
+    "category": "fitness",
+    "description": "Insulated stainless steel water bottle that keeps drinks cold for 24 hours."
+  },
+  {
+    "item_id": 27,
+    "name": "foam roller",
+    "category": "fitness",
+    "description": "High-density foam roller for muscle recovery and myofascial release."
+  },
+  {
+    "item_id": 28,
+    "name": "jump rope",
+    "category": "fitness",
+    "description": "Adjustable speed jump rope for cardio and HIIT workouts."
+  },
+  {
+    "item_id": 29,
+    "name": "gym gloves",
+    "category": "fitness",
+    "description": "Padded gym gloves that improve grip and reduce hand fatigue during lifts."
+  },
+  {
+    "item_id": 30,
+    "name": "protein shaker",
+    "category": "fitness",
+    "description": "Leak-proof protein shaker bottle with a built-in mixing mechanism."
+  },
+  {
+    "item_id": 31,
+    "name": "fitness tracker strap",
+    "category": "fitness",
+    "description": "Replacement silicone strap compatible with most fitness trackers."
+  }
+]

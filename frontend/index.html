@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>RecoNet — Recommendation Demo</title>
+<style>
+  :root { --bg:#0f1115; --card:#171a21; --accent:#93c5fd; --text:#e6e6e6; --muted:#8a8f98; }
+  * { box-sizing: border-box; }
+  body { background: var(--bg); color: var(--text); font-family: -apple-system, Segoe UI, Roboto, sans-serif; max-width: 700px; margin: 0 auto; padding: 40px 20px; }
+  h1 { font-size: 1.6rem; margin-bottom: 4px; }
+  .sub { color: var(--muted); margin-bottom: 24px; }
+  .card { background: var(--card); border-radius: 12px; padding: 18px 22px; margin-bottom: 14px; border: 1px solid #262a33; }
+  input, button { padding: 10px 14px; border-radius: 8px; border: 1px solid #333; background: #0f1115; color: var(--text); }
+  button { background: var(--accent); color: #0f1115; font-weight: 600; border: none; cursor: pointer; }
+  .item-name { font-weight: 600; }
+  .category { color: var(--muted); font-size: 0.85rem; }
+  .explanation { margin-top: 6px; color: var(--accent); font-size: 0.9rem; }
+</style>
+</head>
+<body>
+  <h1>🛍️ RecoNet</h1>
+  <p class="sub">Enter a user id to see their recommendations and why each one was picked.</p>
+  <div>
+    <input type="number" id="userIdInput" placeholder="user id (try 94)" value="94" />
+    <button id="goBtn">Get recommendations</button>
+  </div>
+  <div id="results" style="margin-top:20px"></div>
+
+  <script>
+    const API_BASE = "http://127.0.0.1:8001";
+    document.getElementById("goBtn").addEventListener("click", async () => {
+      const userId = document.getElementById("userIdInput").value;
+      const results = document.getElementById("results");
+      results.innerHTML = "Loading...";
+      try {
+        const res = await fetch(`${API_BASE}/recommend/${userId}?k=5`);
+        const data = await res.json();
+        if (!res.ok) { results.innerHTML = `<p>${data.detail}</p>`; return; }
+        results.innerHTML = data.recommendations.map(r => `
+          <div class="card">
+            <div class="item-name">${r.item.name}</div>
+            <div class="category">${r.item.category}</div>
+            <div class="explanation">${r.explanation}</div>
+          </div>
+        `).join("");
+      } catch (e) {
+        results.innerHTML = "Could not reach the API. Is `uvicorn api.main:app --port 8001` running?";
+      }
+    });
+  </script>
+</body>
+</html>

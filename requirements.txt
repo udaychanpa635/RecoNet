@@ -1,0 +1,15 @@
+fastapi
+uvicorn[standard]
+tensorflow-cpu
+torch --index-url https://download.pytorch.org/whl/cpu
+langchain
+langchain-community
+faiss-cpu
+numpy
+
+# Optional — only needed if you use ANTHROPIC_API_KEY for LLM-phrased explanations
+langchain-anthropic
+
+# For real training on Colab (see notebooks/RecoNet_Training_Colab.ipynb)
+sentence-transformers
+datasets
